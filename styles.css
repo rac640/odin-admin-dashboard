@@ -33,6 +33,21 @@ grid-column-start: 2;
 }
 
 
+/* This is so I could center the icons */
+.topSidebar >div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.topSidebar >div > img{
+    height: 20px;
+    width: 20px;
+    justify-content: baseline;
+
+}
+
+
+
 /* This is for me to identify the containers that I have */
 .largeContainer > div{
     border: 1px solid yellow;
