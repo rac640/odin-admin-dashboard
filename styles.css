@@ -29,6 +29,7 @@ grid-column-start: 2;
 .topSidebar{
     display: grid;
     grid-template-rows: repeat(12 1fr);
+    padding: 20px;
 }
 
 
