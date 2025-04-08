@@ -39,6 +39,10 @@ grid-column-start: 2;
     align-items: center;
     gap: 5px;
 }
+
+
+
+/* resizing svgs: https://www.freecodecamp.org/news/use-svg-images-in-css-html/ */
 .topSidebar >div > img{
     height: 20px;
     width: 20px;
