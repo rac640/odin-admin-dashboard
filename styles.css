@@ -33,7 +33,7 @@ grid-column-start: 2;
 }
 
 
-/* This is so I could center the icons */
+/* This is so I could center the icons: https://stackoverflow.com/questions/69600315/how-to-make-text-next-to-an-image */
 .topSidebar >div{
     display: flex;
     align-items: center;
