@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .largeContainer{
 
@@ -23,7 +23,7 @@ grid-column-start: 2;
     grid-row: 1/3;
     display: grid;
     grid-template-rows: 2fr 1fr;
-
+background-color: silver;
 }
 
 .topSidebar{
