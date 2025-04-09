@@ -43,11 +43,16 @@ grid-column-start: 2;
 
 
 /* resizing svgs: https://www.freecodecamp.org/news/use-svg-images-in-css-html/ */
-.topSidebar >div > img{
+.topSidebar >.sidebar-icons > img{
     height: 20px;
     width: 20px;
     justify-content: baseline;
 
+}
+
+.dashboard > img{
+    height: 50px;
+    width: 50px;
 }
 
 
