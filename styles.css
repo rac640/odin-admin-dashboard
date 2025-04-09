@@ -63,7 +63,11 @@ grid-column-start: 2;
     width: 50px;
 }
 
-
+.headerContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 
 /* This is for me to identify the containers that I have */
 .largeContainer > div{
