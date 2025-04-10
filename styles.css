@@ -67,14 +67,27 @@ grid-column-start: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2,1fr);
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); */
+
 }
+
+
+
+.dashboard > img{
+    height: 50px;
+    width: 50px;
+}
+
+.search-icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+
 
 .headerContent > div{
     border: 1px solid black;
 }
-
 /* This is for me to identify the containers that I have */
 .largeContainer > div{
     border: 1px solid yellow;
