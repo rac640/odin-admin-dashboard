@@ -48,6 +48,12 @@ grid-column-start: 2;
     gap: 5px;
 }
 
+/* This is so I could center the icons: https://stackoverflow.com/questions/69600315/how-to-make-text-next-to-an-image */
+
+.input-and-icon{
+    display: flex;
+    align-items: center;
+}
 
 
 /* resizing svgs: https://www.freecodecamp.org/news/use-svg-images-in-css-html/ */
