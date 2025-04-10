@@ -82,6 +82,12 @@ grid-column-start: 2;
     padding-top: 7%;
 }
 
+.header-bottom-left{
+display: grid;
+grid-template-columns: 1fr 10fr;
+align-items: center;
+}
+
 
 .dashboard > img{
     height: 50px;
@@ -91,6 +97,11 @@ grid-column-start: 2;
 .search-icon, .profile-icon {
     height: 30px;
     width: 30px;
+}
+
+.bigger-userIcon{
+    height: 50px;
+    width: 50px;
 }
 
 
