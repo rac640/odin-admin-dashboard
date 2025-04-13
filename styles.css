@@ -11,7 +11,7 @@
 
 .largeContainer{
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -119,8 +119,17 @@ align-items: center;
 .box-div{
     border: 1px solid black;
     margin: 10px;
+    height: 25vh;
 }
 
+.cool-projects{
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+    /* to make div box smaller and fit content: https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content */
+    height: fit-content;
+    margin: 10px;
+}
 
 
 
