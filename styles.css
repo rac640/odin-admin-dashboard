@@ -99,6 +99,8 @@ align-items: center;
     color: white;
     border: none;
     margin-right: 5%;
+    margin-top: 5%;
+    
 
 }
 
@@ -215,7 +217,7 @@ padding: 20px;
 
 .trending-section > div{
      border-bottom: 1px solid rgb(135, 134, 134);
-
+    margin-top: 10px;
 }
 
 .trending-header{
